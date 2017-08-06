@@ -85,6 +85,7 @@ for (var i = 0; i < span.length; i++) {
         var indexVid = (this.getAttribute("id") - 1);
         var thisTime = videoData[indexVid][1];
         loading(thisTime);
+        video.play();
     });
 }
 
